@@ -12,4 +12,7 @@ let noteSchema = new mongoose.Schema({
     }
 })
 
+// Create a text index on the title and body fields
+noteSchema.index({title: 'text', body: 'text'})
+
 module.exports = mongoose.model('Note', noteSchema);
