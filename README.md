@@ -57,7 +57,7 @@ JWT_TOKEN={YOUR_KEY_AUTENTICATION}
 How to start your project
 
 ```bash
-cd project-name
+cd javascript-notes-backend
 npm run start
 ``````
 
